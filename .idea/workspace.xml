@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe4429e-9316-4002-98ed-eeeef25529a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_base_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_base_project.iml" afterDir="false" />
+    <list default="true" id="dfe4429e-9316-4002-98ed-eeeef25529a0" name="Changes" comment="feat(if_judge): 增加对字节、元组、列表、字典和集合类型的支持&#10;&#10;- 在 if_judge.py 中添加了对 bytes、tuple、list、dict 和 set 类型的判断逻辑&#10;- 更新了 .gitignore 文件，添加了 .venv目录&#10;- 修改了项目配置文件，更新了 Python 解释器路径&#10;- 清理了 workspace.xml 中的多余变更记录">
+      <change afterPath="$PROJECT_DIR$/basic_operators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_conversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if_judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/if_judge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jacobshash&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jacobshash/python_base_project.git&quot;,
+    &quot;accountId&quot;: &quot;ac55fc75-e0ef-45d4-8138-e92fc7f4aab1&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -38,8 +49,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.basic_operators.executor": "Run",
     "Python.data_type.executor": "Run",
     "Python.if_judge.executor": "Run",
+    "Python.type_conversion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -60,7 +73,30 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.if_judge">
+  <component name="RunManager" selected="Python.basic_operators">
+    <configuration name="basic_operators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_base_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_operators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="data_type" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base_project" />
       <option name="ENV_FILES" value="" />
@@ -107,8 +143,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="type_conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_base_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/type_conversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.basic_operators" />
+        <item itemvalue="Python.type_conversion" />
         <item itemvalue="Python.if_judge" />
         <item itemvalue="Python.data_type" />
       </list>
@@ -132,15 +193,31 @@
       <updated>1734335361114</updated>
       <workItem from="1734335362166" duration="3657000" />
       <workItem from="1734339860818" duration="1708000" />
-      <workItem from="1734347014674" duration="1128000" />
+      <workItem from="1734347014674" duration="1215000" />
+      <workItem from="1734350866630" duration="5224000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(if_judge): 增加对字节、元组、列表、字典和集合类型的支持&#10;&#10;- 在 if_judge.py 中添加了对 bytes、tuple、list、dict 和 set 类型的判断逻辑&#10;- 更新了 .gitignore 文件，添加了 .venv目录&#10;- 修改了项目配置文件，更新了 Python 解释器路径&#10;- 清理了 workspace.xml 中的多余变更记录">
+      <option name="closed" value="true" />
+      <created>1734348208637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734348208637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(if_judge): 增加对字节、元组、列表、字典和集合类型的支持&#10;&#10;- 在 if_judge.py 中添加了对 bytes、tuple、list、dict 和 set 类型的判断逻辑&#10;- 更新了 .gitignore 文件，添加了 .venv目录&#10;- 修改了项目配置文件，更新了 Python 解释器路径&#10;- 清理了 workspace.xml 中的多余变更记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(if_judge): 增加对字节、元组、列表、字典和集合类型的支持&#10;&#10;- 在 if_judge.py 中添加了对 bytes、tuple、list、dict 和 set 类型的判断逻辑&#10;- 更新了 .gitignore 文件，添加了 .venv目录&#10;- 修改了项目配置文件，更新了 Python 解释器路径&#10;- 清理了 workspace.xml 中的多余变更记录" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_base_project$data_type.coverage" NAME="data_type Coverage Results" MODIFIED="1734340910036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_base_project$type_conversion.coverage" NAME="type_conversion Coverage Results" MODIFIED="1734355713382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_base_project$if_judge.coverage" NAME="if_judge Coverage Results" MODIFIED="1734347571544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_base_project$basic_operators.coverage" NAME="basic_operators Coverage Results" MODIFIED="1734355997589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
