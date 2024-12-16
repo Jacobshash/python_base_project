@@ -29,5 +29,19 @@ def if_method(names):
             print(f"{name} is bool")
         elif type(name) == type(None):
             print(f"{name} is None")
+        elif type(name) == bytes :
+            print(f"{name} is bytes")
+        elif type(name) == tuple:
+            print(f"{name} is tuple")
+        elif type(name) == list:
+            print(f"{name} is list")
+        elif type(name) == dict:
+            print(f"{name} is dict")
+        elif type(name) == set:
+            print(f"{name} is set")
         else :
-            print(f"{name} is unknown")
+            print(f"{name} is {type(name).__name__}")
+
+
+array = [a,b,c,d,e,f,g,h,i,j,k,l,o]
+if_method(array)
