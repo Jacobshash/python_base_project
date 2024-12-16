@@ -45,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.basic_operators (1).executor": "Run",
     "Python.basic_operators.executor": "Run",
     "Python.data_type.executor": "Run",
     "Python.if_judge.executor": "Run",
@@ -214,7 +215,7 @@
       <workItem from="1734335362166" duration="3657000" />
       <workItem from="1734339860818" duration="1708000" />
       <workItem from="1734347014674" duration="1215000" />
-      <workItem from="1734350866630" duration="5603000" />
+      <workItem from="1734350866630" duration="5932000" />
     </task>
     <task id="LOCAL-00001" summary="feat(if_judge): 增加对字节、元组、列表、字典和集合类型的支持&#10;&#10;- 在 if_judge.py 中添加了对 bytes、tuple、list、dict 和 set 类型的判断逻辑&#10;- 更新了 .gitignore 文件，添加了 .venv目录&#10;- 修改了项目配置文件，更新了 Python 解释器路径&#10;- 清理了 workspace.xml 中的多余变更记录">
       <option name="closed" value="true" />
@@ -232,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734356474870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 添加基础运算符和类型转换功能&#10;&#10;- 新增 basic_operators.py 文件，实现各种运算符功能&#10;- 新增 type_conversion.py 文件，实现不同类型之间的转换&#10;- 更新项目配置，添加新脚本的运行配置&#10;- 清理 workspace.xml 中的多余变更记录">
+      <option name="closed" value="true" />
+      <created>1734356878675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734356878675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,5 +257,6 @@
     <SUITE FILE_PATH="coverage/python_base_project$type_conversion.coverage" NAME="type_conversion Coverage Results" MODIFIED="1734355713382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_base_project$if_judge.coverage" NAME="if_judge Coverage Results" MODIFIED="1734347571544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_base_project$basic_operators.coverage" NAME="basic_operators Coverage Results" MODIFIED="1734356464455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_base_project$basic_operators__1_.coverage" NAME="basic_operators (1) Coverage Results" MODIFIED="1734356832293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
   </component>
 </project>
