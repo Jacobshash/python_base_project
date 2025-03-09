@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe4429e-9316-4002-98ed-eeeef25529a0" name="Changes" comment="feat(workspace): 更新 workspace.xml 文件- 添加 Python 基础运算符执行器配置&#10;- 更新任务列表，增加新功能开发任务- 清理多余变更记录&#10;- 添加新覆盖率结果套件">
-      <change afterPath="$PROJECT_DIR$/basic_python_grammar/for_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_python_grammar/match_case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_python_grammar/while_loop.py" afterDir="false" />
+    <list default="true" id="dfe4429e-9316-4002-98ed-eeeef25529a0" name="Changes" comment="feat(workspace): 更新 workspace.xml 文件&#10;- 添加 Python 基础运算符执行器配置&#10;- 更新任务列表，增加新功能开发任务&#10;- 清理多余变更记录&#10;- 添加新覆盖率结果套件">
+      <change afterPath="$PROJECT_DIR$/basic_python_grammar/function_branch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic_python_grammar/pass_statement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_python_grammar/if_judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_python_grammar/if_judge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_python_grammar/basic_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_python_grammar/basic_operators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,32 +48,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.basic_operators (1).executor": "Run",
-    "Python.basic_operators.executor": "Run",
-    "Python.data_type (1).executor": "Run",
-    "Python.data_type.executor": "Run",
-    "Python.for_loop.executor": "Run",
-    "Python.if_judge (1).executor": "Run",
-    "Python.if_judge.executor": "Run",
-    "Python.match_case.executor": "Run",
-    "Python.type_conversion (1).executor": "Run",
-    "Python.type_conversion.executor": "Run",
-    "Python.while_loop.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.basic_operators (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_operators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_type (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_type.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function_branch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.if_judge (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.if_judge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pass_statement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.type_conversion (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.type_conversion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.while_loop.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="python_base_project" is-module-sdk="true">
@@ -88,7 +89,7 @@
       <recent name="D:\Learn\project\pythonproject\python_base_project\basic_python_grammar" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_type">
+  <component name="RunManager" selected="Python.function_branch">
     <configuration name="data_type" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base_project" />
       <option name="ENV_FILES" value="" />
@@ -135,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="if_judge (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="function_branch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +150,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_python_grammar/if_judge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_python_grammar/function_branch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="match_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pass_statement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_base_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,7 +173,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_python_grammar/match_case.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_python_grammar/pass_statement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,19 +207,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.function_branch" />
+        <item itemvalue="Python.pass_statement" />
         <item itemvalue="Python.data_type" />
         <item itemvalue="Python.while_loop" />
         <item itemvalue="Python.for_loop" />
-        <item itemvalue="Python.match_case" />
-        <item itemvalue="Python.if_judge (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
-        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
@@ -234,7 +235,10 @@
       <workItem from="1734339860818" duration="1708000" />
       <workItem from="1734347014674" duration="1215000" />
       <workItem from="1734350866630" duration="6294000" />
-      <workItem from="1734437765609" duration="5450000" />
+      <workItem from="1734437765609" duration="5561000" />
+      <workItem from="1741507224366" duration="1080000" />
+      <workItem from="1741508332521" duration="577000" />
+      <workItem from="1741508918445" duration="8524000" />
     </task>
     <task id="LOCAL-00001" summary="feat(if_judge): 增加对字节、元组、列表、字典和集合类型的支持&#10;&#10;- 在 if_judge.py 中添加了对 bytes、tuple、list、dict 和 set 类型的判断逻辑&#10;- 更新了 .gitignore 文件，添加了 .venv目录&#10;- 修改了项目配置文件，更新了 Python 解释器路径&#10;- 清理了 workspace.xml 中的多余变更记录">
       <option name="closed" value="true" />
@@ -268,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734357051447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(workspace): 更新 workspace.xml 文件&#10;- 添加 Python 基础运算符执行器配置&#10;- 更新任务列表，增加新功能开发任务&#10;- 清理多余变更记录&#10;- 添加新覆盖率结果套件">
+      <option name="closed" value="true" />
+      <created>1734445272957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734445272957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,17 +290,31 @@
     <MESSAGE value="feat(if_judge): 增加对字节、元组、列表、字典和集合类型的支持&#10;&#10;- 在 if_judge.py 中添加了对 bytes、tuple、list、dict 和 set 类型的判断逻辑&#10;- 更新了 .gitignore 文件，添加了 .venv目录&#10;- 修改了项目配置文件，更新了 Python 解释器路径&#10;- 清理了 workspace.xml 中的多余变更记录" />
     <MESSAGE value="feat: 添加基础运算符和类型转换功能&#10;&#10;- 新增 basic_operators.py 文件，实现各种运算符功能&#10;- 新增 type_conversion.py 文件，实现不同类型之间的转换&#10;- 更新项目配置，添加新脚本的运行配置&#10;- 清理 workspace.xml 中的多余变更记录" />
     <MESSAGE value="feat(workspace): 更新 workspace.xml 文件- 添加 Python 基础运算符执行器配置&#10;- 更新任务列表，增加新功能开发任务- 清理多余变更记录&#10;- 添加新覆盖率结果套件" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(workspace): 更新 workspace.xml 文件- 添加 Python 基础运算符执行器配置&#10;- 更新任务列表，增加新功能开发任务- 清理多余变更记录&#10;- 添加新覆盖率结果套件" />
+    <MESSAGE value="feat(workspace): 更新 workspace.xml 文件&#10;- 添加 Python 基础运算符执行器配置&#10;- 更新任务列表，增加新功能开发任务&#10;- 清理多余变更记录&#10;- 添加新覆盖率结果套件" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(workspace): 更新 workspace.xml 文件&#10;- 添加 Python 基础运算符执行器配置&#10;- 更新任务列表，增加新功能开发任务&#10;- 清理多余变更记录&#10;- 添加新覆盖率结果套件" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/basic_python_grammar/function_branch.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_base_project$data_type.coverage" NAME="data_type Coverage Results" MODIFIED="1734444909292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
+    <SUITE FILE_PATH="coverage/python_base_project$while_loop.coverage" NAME="while_loop Coverage Results" MODIFIED="1734444905478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
+    <SUITE FILE_PATH="coverage/python_base_project$function_branch.coverage" NAME="function_branch Coverage Results" MODIFIED="1741523558636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
+    <SUITE FILE_PATH="coverage/python_base_project$if_judge.coverage" NAME="if_judge Coverage Results" MODIFIED="1734347571544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_base_project$pass_statement.coverage" NAME="pass_statement Coverage Results" MODIFIED="1741516263018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
+    <SUITE FILE_PATH="coverage/python_base_project$basic_operators.coverage" NAME="basic_operators Coverage Results" MODIFIED="1734356464455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_base_project$match_case.coverage" NAME="match_case Coverage Results" MODIFIED="1734443397386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
     <SUITE FILE_PATH="coverage/python_base_project$data_type__1_.coverage" NAME="data_type (1) Coverage Results" MODIFIED="1734441824893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
-    <SUITE FILE_PATH="coverage/python_base_project$data_type.coverage" NAME="data_type Coverage Results" MODIFIED="1734444909292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
     <SUITE FILE_PATH="coverage/python_base_project$type_conversion.coverage" NAME="type_conversion Coverage Results" MODIFIED="1734355713382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_base_project$while_loop.coverage" NAME="while_loop Coverage Results" MODIFIED="1734444905478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
     <SUITE FILE_PATH="coverage/python_base_project$for_loop.coverage" NAME="for_loop Coverage Results" MODIFIED="1734444673008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
-    <SUITE FILE_PATH="coverage/python_base_project$if_judge.coverage" NAME="if_judge Coverage Results" MODIFIED="1734347571544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_base_project$basic_operators.coverage" NAME="basic_operators Coverage Results" MODIFIED="1734356464455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_base_project$basic_operators__1_.coverage" NAME="basic_operators (1) Coverage Results" MODIFIED="1734441817257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
     <SUITE FILE_PATH="coverage/python_base_project$if_judge__1_.coverage" NAME="if_judge (1) Coverage Results" MODIFIED="1734443307117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
     <SUITE FILE_PATH="coverage/python_base_project$type_conversion__1_.coverage" NAME="type_conversion (1) Coverage Results" MODIFIED="1734442094244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_python_grammar" />
